@@ -29,19 +29,18 @@ p {
   color: #343a40;
 }
 
-@media screen and (min-width:576px) {
-  .row {
-    margin-bottom: 30px;
-  }
-}
-
-
 .submit-color {
   background-color: #DE660D;
   color: white;
   opacity: 0.9;
   transition: all 0.4s;
   margin: 0 auto;
+}
+
+@media screen and (min-width:576px) {
+  .row {
+    margin-bottom: 30px;
+  }
 }
 
 .submit-color:hover {
@@ -56,4 +55,8 @@ p {
 footer {
   background-color: #343a40;
   text-align: center;
+}
+
+.card {
+  border-radius: 0;
 }
